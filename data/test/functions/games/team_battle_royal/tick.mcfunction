@@ -1,0 +1,1 @@
+execute if score team globaldata matches ..1 run function test:games/team_battle_royal/end_game

@@ -1,0 +1,1 @@
+execute if score player globaldata matches ..1 run function test:games/solo_battle_royal/end_game

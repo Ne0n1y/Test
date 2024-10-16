@@ -1,0 +1,1 @@
+execute store result score player globaldata if entity @a[gamemode=adventure]

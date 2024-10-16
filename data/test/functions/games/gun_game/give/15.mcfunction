@@ -1,0 +1,2 @@
+give @s tacz:modern_kinetic_gun{GunCurrentAmmoCount:5,GunFireMode:"SEMI",GunId:"tacz:ai_awp",HasBulletInBarrel:1b,AttachmentSCOPE:{Count:1b,id:"tacz:attachment",tag:{AttachmentId:"tacz:scope_lpvo_1_6",ZoomNumber:12}}}
+give @s tacz:ammo_box{AllTypeCreative:1b}

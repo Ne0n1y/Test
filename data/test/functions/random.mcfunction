@@ -1,0 +1,1 @@
+execute store result score random globaldata run loot spawn ~ ~ ~ loot test:loot_table

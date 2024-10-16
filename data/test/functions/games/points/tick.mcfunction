@@ -1,0 +1,1 @@
+execute as @e[tag=zone] at @s run function test:games/points/zone

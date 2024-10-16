@@ -1,0 +1,20 @@
+clear @s
+execute as @s[scores={gun_stage=1}] run function test:games/gun_game/give/1
+execute as @s[scores={gun_stage=2}] run function test:games/gun_game/give/2
+execute as @s[scores={gun_stage=3}] run function test:games/gun_game/give/3
+execute as @s[scores={gun_stage=4}] run function test:games/gun_game/give/4
+execute as @s[scores={gun_stage=5}] run function test:games/gun_game/give/5
+execute as @s[scores={gun_stage=6}] run function test:games/gun_game/give/6
+execute as @s[scores={gun_stage=7}] run function test:games/gun_game/give/7
+execute as @s[scores={gun_stage=8}] run function test:games/gun_game/give/8
+execute as @s[scores={gun_stage=9}] run function test:games/gun_game/give/9
+execute as @s[scores={gun_stage=10}] run function test:games/gun_game/give/10
+execute as @s[scores={gun_stage=11}] run function test:games/gun_game/give/11
+execute as @s[scores={gun_stage=12}] run function test:games/gun_game/give/12
+execute as @s[scores={gun_stage=13}] run function test:games/gun_game/give/13
+execute as @s[scores={gun_stage=14}] run function test:games/gun_game/give/14
+execute as @s[scores={gun_stage=15}] run function test:games/gun_game/give/15
+execute as @s[scores={gun_stage=16}] run function test:games/gun_game/give/16
+execute as @s[scores={gun_stage=17}] run function test:games/gun_game/give/17
+execute as @s[scores={gun_stage=18}] run function test:games/gun_game/give/18
+execute as @s[scores={gun_stage=19}] run function test:games/gun_game/end_game

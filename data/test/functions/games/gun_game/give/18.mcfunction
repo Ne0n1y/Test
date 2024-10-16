@@ -1,0 +1,1 @@
+give @s minecraft:iron_sword{HideFlags:15,Enchantments:[{lvl:30,id:"minecraft:sharpness"}],display:{Name:'{"text":"Нож","italic": false,"color": "red"}'}}
