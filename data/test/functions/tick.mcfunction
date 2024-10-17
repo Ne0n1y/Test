@@ -7,3 +7,4 @@ execute as @a[tag=!nado] run function test:nado
 execute as @a[tag=!on_tir] at @s if block ~ ~-1 ~ minecraft:netherite_block run function test:tir
 execute as @a[tag=on_tir] at @s if block ~ ~-1 ~ minecraft:reinforced_deepslate run function test:leave_tir
 execute as @a at @s if block ~ ~-1 ~ minecraft:reinforced_deepslate run clear @s
+execute if score mode globaldata matches 5..6 run execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:golden_hoe"}]}] run function test:games/airdrope/jump_boost
