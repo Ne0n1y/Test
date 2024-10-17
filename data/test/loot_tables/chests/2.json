@@ -4,13 +4,9 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 92
-        },
-        {
           "type": "minecraft:item",
           "name": "minecraft:redstone_torch",
-          "weight": 8,
+          "weight": 90,
           "functions": [
             {
               "function": "minecraft:set_lore",
@@ -34,81 +30,11 @@
               "function": "minecraft:set_nbt",
               "tag": "{airdrop:1b}"
             }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 83
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tac:m1911",
-          "weight": 17
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 78
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tac:c96",
-          "weight": 22
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 97
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tac:tti_g34",
-          "weight": 3
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 85
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tac:ai_awp",
-          "weight": 15
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 90
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tac:10_gauge_round",
-          "weight": 10,
-          "functions": [
+          ],
+          "conditions": [
             {
-              "function": "minecraft:set_count",
-              "count": 2
+              "condition": "minecraft:random_chance",
+              "chance": 0.08
             }
           ]
         }
@@ -117,144 +43,10 @@
     {
       "rolls": 1,
       "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 84
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tac:lapua338",
-          "weight": 16,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 50
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tac:round45",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 4
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 90
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tac:9mm_round",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 15
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 85
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_apple",
-          "weight": 15
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 82
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tac:impact_flash_grenade",
-          "weight": 18
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 97
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tac:baseball_grenade",
-          "weight": 3
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 96
-        },
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_chestplate",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Бронежилет III-Tear",
-                "color": "white",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:4}]}"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 86
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_chestplate",
-          "weight": 14,
+          "weight": 90,
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -268,6 +60,12 @@
               "function": "minecraft:set_nbt",
               "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:2}]}"
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.14
+            }
           ]
         }
       ]
@@ -276,13 +74,29 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 87
-        },
-        {
           "type": "minecraft:item",
-          "name": "tac:medium_extended_mag",
-          "weight": 13
+          "name": "minecraft:diamond_chestplate",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Бронежилет III-Tear",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:4}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.04
+            }
+          ]
         }
       ]
     },
@@ -290,13 +104,24 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 82
-        },
-        {
           "type": "minecraft:item",
-          "name": "tac:sro_dot",
-          "weight": 18
+          "name": "minecraft:golden_apple",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Малая доза Героина!",
+                "italic": false
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.15
+            }
+          ]
         }
       ]
     },
@@ -304,13 +129,46 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 85
-        },
+          "type": "minecraft:item",
+          "name": "tacz:attachment",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AttachmentId:\"tacz:light_extended_mag_2\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.13
+            }
+          ]
+        }
+      ]
+    },
+    
+    
+
+    {
+      "rolls": 1,
+      "entries": [
         {
           "type": "minecraft:item",
-          "name": "tac:muzzle_brake",
-          "weight": 15
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GunFireMode:\"AUTO\",GunId:\"tacz:nailgun\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.03
+            }
+          ]
         }
       ]
     },
@@ -318,13 +176,21 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 90
-        },
-        {
           "type": "minecraft:item",
-          "name": "tac:acog_4x_scope",
-          "weight": 10
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GunFireMode:\"SEMI\",GunId:\"tacz:ai_awp\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.15
+            }
+          ]
         }
       ]
     },
@@ -332,15 +198,246 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 80
-        },
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GunFireMode:\"SEMI\",GunId:\"tacz:ai_awp\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
           "type": "minecraft:item",
-          "name": "tac:pistol_silencer",
-          "weight": 20
+          "name": "tacz:ammo",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId:\"tacz:338\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:ammo",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId:\"tacz:9mm\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 15
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GunFireMode:\"SEMI\",GunId:\"tacz:p320\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:attachment",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AttachmentId:\"tacz:sniper_extended_mag_1\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:attachment",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AttachmentId:\"tacz:scope_acog_ta31\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:attachment",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AttachmentId:\"tacz:sight_coyote\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:attachment",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AttachmentId:\"tacz:muzzle_silence_mirage\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.14
+            }
+          ]
         }
       ]
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   ]
-}
+}  

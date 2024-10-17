@@ -122,8 +122,6 @@
         }
       ]
     },
-
-
     {
       "rolls": 1,
       "entries": [
@@ -159,12 +157,38 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tacz:modern_kinetic_gun",
+          "name": "minecraft:book",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Сдохни или Умри",
+                "color": "red",
+                "italic": false
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:attachment",
           "weight": 90,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{GunFireMode:\"SEMI\",GunId:\"tacz:glock_17\"}"
+              "tag": "{AttachmentId:\"tacz:light_extended_mag_1\"}"
             }
           ],
           "conditions": [
@@ -175,13 +199,169 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:attachment",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AttachmentId:\"tacz:scope_elcan_4x\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GunFireMode:\"SEMI\",GunId:\"tacz:db_long\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.07
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:ammo",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId:\"tacz:12g\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:ammo",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId:\"tacz:45acp\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 9
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GunFireMode:\"SEMI\",GunId:\"lradd:p250\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GunFireMode:\"SEMI\",GunId:\"lradd:m200\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:ammo_box",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Level:0}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        }
+      ]
     }
-
-
-
-
-
-
 
 
 

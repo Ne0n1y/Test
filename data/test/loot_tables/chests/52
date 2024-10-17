@@ -12,70 +12,11 @@
             "weight": 13
           }
         ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:empty",
-            "weight": 80
-          },
-          {
-            "type": "minecraft:item",
-            "name": "tac:m92fs",
-            "weight": 20
-          }
-        ]
-      },
-     
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:empty",
-            "weight": 93
-          },
-          {
-            "type": "minecraft:item",
-            "name": "tac:m870_classic",
-            "weight": 7
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:empty",
-            "weight": 89
-          },
-          {
-            "type": "minecraft:item",
-            "name": "tac:m24",
-            "weight": 11
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:empty",
-            "weight": 84
-          },
-          {
-            "type": "minecraft:item",   
-            "name": "tac:b_magnum",
-            "weight": 16,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 5
-              }
-            ]
-          }
-        ]
-      },
+  
+
+
+
+
       {
         "rolls": 1,
         "entries": [
@@ -96,26 +37,6 @@
           }
         ]
       },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:empty",
-            "weight": 84
-          },
-          {
-            "type": "minecraft:item",
-            "name": "tac:round45",
-            "weight": 16,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 9
-              }
-            ]
-          }
-        ]
-      },
 
       {
         "rolls": 1,
@@ -131,56 +52,3 @@
           }
         ]
       },
-      
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:empty",
-            "weight": 89
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:book",
-            "weight": 11,
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "text": "Сдохни или Умри",
-                  "color": "red",
-                  "italic": false
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:empty",
-            "weight": 85
-          },
-          {
-            "type": "minecraft:item",
-            "name": "tac:small_extended_mag",
-            "weight": 15
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:empty",
-            "weight": 90
-          },
-          {
-            "type": "minecraft:item",
-            "name": "tac:elcan_14x",
-            "weight": 10
-          }
-        ]
-      }

@@ -1,0 +1,134 @@
+
+
+
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 90
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tac:10_gauge_round",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    
+
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tac:round45",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+
+
+
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 82
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tac:impact_flash_grenade",
+          "weight": 18
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 97
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tac:baseball_grenade",
+          "weight": 3
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 82
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tac:sro_dot",
+          "weight": 18
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 85
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tac:muzzle_brake",
+          "weight": 15
+        }
+      ]
+    },
+
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 80
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tac:pistol_silencer",
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}
